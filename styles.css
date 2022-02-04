@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    color: aliceblue;
+    
+}
+.container{
+    height: 30%;
+    width: 50%; 
+    background-color: rgb(131, 78, 182);
+    padding: 50px;
+    margin: 50px;
+}
+#c1{
+    display: flex;
+    justify-content: flex-start;   
+    
+}
+.mid
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: 0;
+
+}
+.bottom
+{
+    display: flex;
+    align-self: flex-start;
+    justify-content:left;
+    align-items: baseline;
+}
+
+.container:hover{
+    box-shadow: 2px 2px 10px 10px #888;
+}
